@@ -12,6 +12,8 @@ pub mod utils;
 pub struct ConfigUtils;
 
 pub const DEFAULT_TENANT: &str = "public";
+pub const __INNER_SYSTEM__TENANT: &str = "__INNER_SYSTEM__";
+pub const MANIFEST: &str = "manifest";
 
 impl ConfigUtils {
     pub fn default_tenant(val: String) -> String {
